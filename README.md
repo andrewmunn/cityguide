@@ -1,11 +1,16 @@
 # cityguide
 City guide demo Android app!
+Video demo: http://youtu.be/RdgGx3k49x4
 Libraries used:
 
 Otto
+
 OkHttp
+
 ButterKnife
+
 Guava
+
 RecyclerView
 
 City guide shows a list of nearby Bars, Restaurants, and Cafes! City guide supports pull-to-refresh and an animated tab slider. Have fun!
