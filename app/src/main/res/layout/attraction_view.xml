@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="10dp"
+    >
+
+    <ImageView
+        android:id="@+id/attraction_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="2dp"
+        />
+
+    <TextView
+        android:id="@+id/attraction_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="4dp"
+        android:includeFontPadding="false"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#999"
+        />
+
+    <TextView
+        android:id="@+id/attraction_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/attraction_icon"
+        android:layout_toLeftOf="@id/attraction_distance"
+        android:layout_alignParentTop="true"
+        android:includeFontPadding="false"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/city_guide_gray"
+        />
+
+    <RatingBar
+        android:id="@+id/attraction_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="14dp"
+        android:layout_below="@id/attraction_name"
+        android:layout_alignLeft="@+id/attraction_name"
+        android:layout_marginBottom="12dp"
+        android:isIndicator="true"
+        android:numStars="5"
+        android:stepSize="0.1"
+        />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#aaa"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>

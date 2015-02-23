@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="city_guide_primary">#e3519a</color>
+    <color name="city_guide_primary_dark">#cc2179</color>
+    <color name="city_guide_gray">#413e3b</color>
+</resources>

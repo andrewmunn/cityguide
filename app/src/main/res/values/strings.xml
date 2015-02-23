@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">City guide</string>
+    <string name="bar">Bar</string>
+    <string name="bistro">Bistro</string>
+    <string name="cafe">Café</string>
+    <string name="attraction_distance">%1$.1f mi</string>
+    <string name="fetch_failed">Failed to fetch attractions. I am a sad panda.</string>
+    <string name="about">City guide was created by Andrew Munn! Here\&apos;s kerby dancing: &lt;(^.^&lt;) &lt;(^.^)&gt; (&gt;^.^)&gt;</string>
+</resources>

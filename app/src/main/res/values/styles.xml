@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:ratingBarStyle">@style/attractionRatingbar</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="colorPrimary">@color/city_guide_primary</item>
+        <item name="colorPrimaryDark">@color/city_guide_primary_dark</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:colorBackground">@android:color/white</item>
+    </style>
+
+    <style name="attractionRatingbar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/attraction_rating_bar_full</item>
+        <item name="android:height">15dip</item>
+    </style>
+
+    <style name="slidingTabButtonStyle" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="slidingTabOverlayStyle" parent="@style/slidingTabButtonStyle">
+        <item name="android:textColor">#f09312</item>
+        <item name="android:background">@drawable/slider</item>
+    </style>
+
+</resources>
